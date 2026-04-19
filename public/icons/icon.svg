@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="NarrateMyWorld">
+  <rect width="512" height="512" rx="96" fill="#000"/>
+  <circle cx="256" cy="256" r="168" fill="none" stroke="#ffd400" stroke-width="16"/>
+  <circle cx="256" cy="256" r="64" fill="#ffd400"/>
+  <path d="M88 256 q-24 0 -24 -24 v-32 q0 -24 24 -24 h32 v80 z" fill="#ffd400"/>
+  <path d="M424 256 q24 0 24 -24 v-32 q0 -24 -24 -24 h-32 v80 z" fill="#ffd400"/>
+  <path d="M120 256 q40 -40 80 -40 M120 256 q40 40 80 40 M392 256 q-40 -40 -80 -40 M392 256 q-40 40 -80 40" stroke="#ffd400" stroke-width="10" fill="none" stroke-linecap="round"/>
+</svg>

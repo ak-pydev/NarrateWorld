@@ -1,0 +1,20 @@
+{
+  "name": "narratemyworld",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Real-time AI audio descriptions for blind / low-vision users via Gemini Vision, ElevenLabs TTS, and Featherless model routing. Hosted on Firebase Hosting + Cloud Functions (2nd gen).",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "sync:src": "node scripts/sync-src.js",
+    "dev": "npm run sync:src && firebase emulators:start --only hosting,functions",
+    "deploy": "firebase deploy --only hosting,functions",
+    "deploy:hosting": "firebase deploy --only hosting",
+    "deploy:functions": "firebase deploy --only functions",
+    "logs": "firebase functions:log",
+    "lint": "echo 'Root has no source to lint. Run `npm run lint` inside functions/ for backend lint.' && exit 0"
+  },
+  "devDependencies": {}
+}

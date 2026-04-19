@@ -1,0 +1,20 @@
+{
+  "name": "NarrateMyWorld",
+  "short_name": "Narrate",
+  "description": "Real-time AI audio descriptions of your surroundings.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b0c0f",
+  "theme_color": "#0b0c0f",
+  "categories": ["accessibility", "utilities"],
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
